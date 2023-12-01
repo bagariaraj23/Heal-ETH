@@ -26,7 +26,13 @@ p {
 .btn {
   @apply shadow-md;
 }
-
+.disabled{
+  pointer-events:none;
+  opacity: 0.4
+}
+.d-none{
+  display: none
+}
 .btn.btn-ghost {
   @apply shadow-none;
 }

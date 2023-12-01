@@ -14,6 +14,8 @@ import { useGlobalState } from "~~/services/store/store";
 import { wagmiConfig } from "~~/services/web3/wagmiConfig";
 import { appChains } from "~~/services/web3/wagmiConnectors";
 import "~~/styles/globals.css";
+import '../components/Dashboard/ProductList.scss';
+import Dashboard from "../components/Dashboard/Dashboard";
 
 const ScaffoldEthApp = ({ Component, pageProps }: AppProps) => {
   const price = useNativeCurrencyPrice();

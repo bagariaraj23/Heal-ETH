@@ -31,10 +31,23 @@
   },
   "packageManager": "yarn@3.2.3",
   "devDependencies": {
+    "@types/react": "^18.2.39",
+    "@types/react-dom": "^18",
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3"
   },
   "resolutions": {
     "usehooks-ts@^2.7.2": "patch:usehooks-ts@npm:^2.7.2#./.yarn/patches/usehooks-ts-npm-2.7.2-fceffe0e43.patch"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.14.19",
+    "@mui/styled-engine-sc": "^6.0.0-alpha.7",
+    "@zeit/next-sass": "^1.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sass": "^1.69.5",
+    "styled-components": "^6.1.1"
   }
 }
