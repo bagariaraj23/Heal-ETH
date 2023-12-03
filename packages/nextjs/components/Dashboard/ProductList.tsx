@@ -40,9 +40,6 @@ const ProductsList: React.FC<ProductsListProps> = ({ products, itemsPerPage }) =
         ))}
         </div>
       <div className="pagination-container">
-        <p>
-          Page {currentPage} of {totalPages}
-        </p>
         <ul class="pagination">
     <li>
       <a href="#"  

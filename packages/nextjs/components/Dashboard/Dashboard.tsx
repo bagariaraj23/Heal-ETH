@@ -11,7 +11,7 @@ const productData: Product[] = [
 const Dashboard: React.FC = () => {
   return (
     <div className="pt-10 pb-10">
-      <ProductsList products={productData} itemsPerPage={5} />
+      <ProductsList products={productData} itemsPerPage={6} />
     </div>
   );
 };
